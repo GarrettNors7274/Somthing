@@ -26,7 +26,7 @@ int main() {
 	cout << "Enter hours worked: ";
 	cin >> hoursWorked;
 
-	cout << "How much do you get paid per hour: "
+	cout << "How much do you get paid per hour: ";
 	cin >> payRate;
 
 	double grossPay = hoursWorked * payRate;
